@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos e Serviços</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="produtos">
+            <h1>Produtos</h1>
+            <div class="produtos-container">
+                <div class="produto">
+                    <h2>Produto 1</h2>
+                    <p>Descrição do produto 1</p>
+                    <img src="produto1.jpg" alt="Produto 1">
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <h2>Produto 2</h2>
+                    <p>Descrição do produto 2</p>
+                    <img src="produto2.jpg" alt="Produto 2">
+                    <button>Comprar</button>
+                </div>
+                <!-- Adicione mais produtos aqui -->
+            </div>
+        </section>
+        <section id="servicos">
+            <h1>Serviços</h1>
+            <div class="servicos-container">
+                <div class="servico">
+                    <h2>Serviço 1</h2>
+                    <p>Descrição do serviço 1</p>
+                    <button>Saiba mais</button>
+                </div>
+                <div class="servico">
+                    <h2>Serviço 2</h2>
+                    <p>Descrição do serviço 2</p>
+                    <button>Saiba mais</button>
+                </div>
+                <!-- Adicione mais serviços aqui -->
+            </div>
+        </section>
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Descrição da sua empresa ou história</p>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Informações de contato, como endereço, telefone e e-mail</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Meus Produtos e Serviços</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos e Serviços</title>
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header nav ul li {
+            margin-right: 20px;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h1 {
+            margin-top: 0;
+        }
+        
+        .produtos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .produto {
+            margin: 20px;
+            width: calc(33.33% - 20px);
+            background-color: #f7f7f7;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .produto img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .servicos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .servico {
+            margin: 20px;
+            width: calc(33.33% - 20px);
+            background-color: #f7f7f7;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="produtos">
+            <h1>Produtos</h1>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="produto1.jpg" alt="Produto 1">
+                    <h2>Produto 1</h2>
+                    <p>Descrição do produto 1</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="produto2.jpg" alt="Produto 2">
+                    <h2>Produto 2</h2>
+                    <p>Descrição do produto 2</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Adicione mais produtos aqui -->
+            </div>
+        </section>
+        <section id="servicos">
+            <h1>Serviços</h1>
+            <div class="servicos-container">
+                <div class="servico">
+                    <h2>Serviço 1</h2>
+                    <p>Descrição do serviço 1</p>
+                    <button>Saiba mais</button>
+                </div>
+                <div class="servico">
+                    <h2>Serviço 2</

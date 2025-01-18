@@ -1,0 +1,62 @@
+<!Doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="form" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Formulário</h1> <br>
+            <form action="" id="form" name="form">
+                <label for="Nome">Nome Completo: </label><br>
+                <input type="text" id="nome" name="nome" required> <br>
+                <label for="Email">E-mail: </label><br>
+                <input type="email" id="email" name="email" required> <br>
+                <label for="Idade">Idade: </label><br>
+                <input type="number" required> <br>
+                <label for="materias">Assunto: </label>
+                <select name="materias" id="materias" required>
+                   <option value="matematica">Matemática</option> 
+                   <option value="portugues">Português</option>
+                   <option value="biologia">Biologia</option>
+                   <option value="ciencias">Ciências</option>
+                   <option value="historia">História</option>
+                   <option value="geografia">Geografia</option>
+                   <option value="artes">Artes</option>
+                </select> <br>
+                <label for="turno">Turno Disponivel: </label>
+                <select name="turno" id="turno" required>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select><br>
+                <label for="nivel" >Nível de escolaridade: </label>
+                <select name="nivel" id="nivel" required>
+                    <option value="ESC">Ensino Superior Completo</option>
+                    <option value="CM">Cursando Mestrado</option>
+                    <option value="MC">Mestrado Completo</option>
+                    <option value="CD">Cursando Doutorado</option>
+                    <option value="DC">Doutorado Completo</option>
+                </select> <br>
+
+                <h3>Descrição</h3>
+                <textarea name="desc" id="desc" cols="30" rows="10" maxlength="200" required></textarea>
+                
+                
+
+            </form>
+
+        </header>
+        
+    </body>
+    <footer>
+        <h2>Duvidas?</h2>
+        <p>Em caso de Dúvidas enviar um email para <a href="email">leo.mp4@hotmail.com</a></p>
+
+    </footer>
+
+
+
+</html>

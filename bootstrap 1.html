@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title class="title">one for all</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="title text-center">Bem vindo ao teste</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous""></script>
+    <header class=" bg-dark text-white p-3 text-center">
+
+        <div class="container text-center"><p class="display-4">Website criado para teste de javascript html e css/bootstrap</p></div>
+    </header>
+    <main class="container text-center p-3">
+        <section>
+        <h1 class="title">Produtos</h1> <br>
+        <div class="container" id="primeiro"><label>Preço do produto: </label>
+        <input type="text" id="produto" class="form-control w-25"> <br>
+        <label>Desconto %: </label>
+        <input type="text" id="desconto" class="form-control w-25"> <br>
+        <button onclick="varProduto()" class="btn btn-primary">Verificar</button> 
+       <p id="resultado" ></p></div></section>
+
+       <section><div class="div"><label>Clique:</label><button id="botaoTrocacor" class="btn btn-primary"  onclick="trocaCor()">aqui</button></div></section>
+        
+       <section>
+        <div id="primeiro" class="container"><h3>Conteudo</h3>
+            <p>Digite dois numeros e um operador</p>
+           <input type="number" id="num1"  placeholder="primeiro numero">
+            <select type="text" id="operador" placeholder="operador" class="form w-25 ">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="num2" placeholder="segundo numero">
+            
+            <button onclick="enviar()">Enviar</button>
+            <span id="result"></span>
+        
+        
+        </div>
+        
+
+       </section>
+       <section><div class="div">
+        <h3>arrays/vetores</h3>
+        <div><input type="text" id="frutas" placeholder="digite uma fruta" >
+        <button onclick="adicionar()" >Adicionar</button></div>
+        <div><p id="lista"></p></div>
+
+       </div>
+
+
+       </section>
+ 
+ 
+ 
+ 
+    </main>
+    
+</body>
+<footer>
+        <p id="rodape">&copy; Todos os direitos reservados</p>
+    </footer>
+</html>
